@@ -10,8 +10,8 @@ from pyrogram.errors import FloodWait
 
 CAPTION_TEXT=Config.CAPTION
 BUTTON_TEXT=Config.BUTTON_TEXT
-URL_LINK=Config.URL_LINK
-
+GROUP_LINK=Config.GROUP_LINK
+CHANNEL_LINK=Config.CHANNEL_LINK
 
 @Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
@@ -19,7 +19,7 @@ async def caption(client, message: Message):
     await message.edit(f"<b>{kopp.file_name}</b>\n\n{CAPTION_TEXT}",
           reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{URL_LINK}")
+              InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{GROUP_LINK}")
               ]]
         ))
 
