@@ -1,26 +1,25 @@
 {
-    "name": "MT AutoCaptionBot",
-    "description": "Auto Caption BoT @Pr0fess0r-99",
-    "logo": "https://telegra.ph/file/a2682b1cb49bf770baecf.jpg",
+    "name": "AutoCaptionBot",
+    "description": "Auto Caption BoT @ImError_X",
+    "logo": "https://telegra.ph/file/dd2bfdd6c3f6ca21d9a76.jpg",
     "keywords": [
         "Private",
-        "Auto",
         "Caption",
         "Bot"
     ],
     "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-    "repository": "https://github.com/PR0FESS0R-99/PrivateAutoCaption",
+    "repository": "https://github.com/gbimsath/PrivateAutoCaption/",
     "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
     "env": {
         "APP_ID": {
-            "description": "Your APP ID From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Your APP ID From my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Your API Hash From my.telegram.org",
             "value": ""
         },
-        "MT_BOT_TOKEN": {
+        "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
@@ -34,7 +33,7 @@
         },
         "LINK": {
             "description": " Group Or Chanenl) Public Link Link",
-            "value": "t.me/mo_tech_yt"
+            "value": "https://t.me/+rWHmdVt3NythYzI1"
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username From @BotFather",
