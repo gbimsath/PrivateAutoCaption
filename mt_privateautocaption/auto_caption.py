@@ -20,6 +20,7 @@ async def caption(client, message: Message):
           reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{GROUP_LINK}")
+              InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{CHANNEL_LINK}")
               ]]
         ))
 
